@@ -1,0 +1,469 @@
+{
+  "addons": {
+    "audiodecoder.2sf": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "1d2f324b777224276ec1eee0d377aee3f0c046264c767db9d17b2507fc9c7e1d",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "c2c75a12ed77037d6a3028ec5a61d176da9be5355bf66532d3643ae03c2ab00b",
+      "source_revision": "039eeb7de76bf28d20c64ab4ef778982e70c639d",
+      "target": "audiodecoder.2sf",
+      "url": "https://github.com/xbmc/audiodecoder.2sf",
+      "version": "22.0.5+ps5.1"
+    },
+    "audiodecoder.asap": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "d4628e3ff386401ca27babe6b043d64b24f5e047b5f17968f7f7977c06664a0a",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "4d47b1d40030da4b27660d39a57d8333a4e6ce9dd823286cc5e657d85d6bcba5",
+      "source_revision": "d4705fab65d516e81dcfe8987f1197bfa882a5e0",
+      "target": "audiodecoder.asap",
+      "url": "https://github.com/xbmc/audiodecoder.asap",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.gme": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "3fc9a72fb6b25b1cd4f7bd01167f5aacc22cef65e27933724d113393a731a2fd",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "4437d6e6a89802666157f11798883ca33fe3de12b317f08f8e45cbc03ff2a1ed",
+      "source_revision": "0ec47634fa57a0f8debdae5066226a3976768ca5",
+      "target": "audiodecoder.gme",
+      "url": "https://github.com/xbmc/audiodecoder.gme",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.gsf": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "0cf388108a613bbcffb98cc238820700d338df907df80d566cd3fae80aad13ff",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "91412d24658682f429a9617f247ef242d3c5b367bb9f8067865acfa6f946b5ce",
+      "source_revision": "b0c965cfa5c1e6242925f23acdba391aaf4517c7",
+      "target": "audiodecoder.gsf",
+      "url": "https://github.com/xbmc/audiodecoder.gsf",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.hvl": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "86508d32ed6a5183027cbecde3954a3f2f724fc45947e3c126dd774e286cf7e2",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "1522bec379e74d7e8409c20bd0c33920861cdaa91603a50ba28c048afe8a603f",
+      "source_revision": "6d4ae4932868c3ea9491f473cc7f253951ae2989",
+      "target": "audiodecoder.hvl",
+      "url": "https://github.com/xbmc/audiodecoder.hvl",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.ncsf": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "046f2f80aa1db5dbdd42ab7346e849d5a13beb14a41a3da0d9124166a6f65b52",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "38b6047080780ddbc381108a1991d4b7e273c9a68d074ac76496efaf378fe56c",
+      "source_revision": "c3c545a71255a7edceacc0d193d626f6ec83690a",
+      "target": "audiodecoder.ncsf",
+      "url": "https://github.com/xbmc/audiodecoder.ncsf",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.nosefart": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "a0c08ed0e6a3a50b9c150d8f9dc4cdb4fbe6bd7924c599a38b0f25be162b8cc8",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "2bf6e12ed975d0b3830ae9295064eba05350f129e3ba004486cef485d1b05ebc",
+      "source_revision": "d2f716b3af931b74a2f40c896464e6e9d0f1dd1c",
+      "target": "audiodecoder.nosefart",
+      "url": "https://github.com/xbmc/audiodecoder.nosefart",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.openmpt": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "9acd7eb30b43a753d46a06716918f645fc537c0093a4b010d5c85fde43d9612d",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "723d879ab11910fc4c9f6188f4c542bf224a78378048570647c2d5446d1cfe46",
+      "source_revision": "7140624962ab031e42f58be6473c73c88dc0e48a",
+      "target": "audiodecoder.openmpt",
+      "url": "https://github.com/xbmc/audiodecoder.openmpt",
+      "version": "22.0.4+ps5.1"
+    },
+    "audiodecoder.organya": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ca232e265473fb74a8741afb79dd45392d79fcc5c5cd5666677b089644bfbcd2",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "1e00405328b0c7a5b6262093e31b30eea4995f812537c66039f113647a10b4d5",
+      "source_revision": "c4f89fdc918ba55781c99cdf91c314863a0aac54",
+      "target": "audiodecoder.organya",
+      "url": "https://github.com/xbmc/audiodecoder.organya",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.qsf": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ca24d95342a75486fefe2948b77ce844fd88e6a91a43eeb1f03d0332a11ed5fb",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "b18ab794bff5ff739f87d611ad95238ba870886ff663fc3351c17050280f4422",
+      "source_revision": "ed24a15f9ed01cfdafe1f051895d11c5286a442f",
+      "target": "audiodecoder.qsf",
+      "url": "https://github.com/xbmc/audiodecoder.qsf",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.sidplay": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "9d8eda0051f0565dd667cfdce625f908b9f5f5154f6bd185296ae59d030d3eed",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "f0f5f15958ef2b8d064ee44fccdb30c33cb12b2435f82b89d2451034ef52ef2f",
+      "source_revision": "ec797305a4583d6690989cf18b804b55f95829b1",
+      "target": "audiodecoder.sidplay",
+      "url": "https://github.com/xbmc/audiodecoder.sidplay",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.snesapu": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "1428eef534e870f0d9b15c749c8ef7e24cbcb173ae2d77f6b9f012bd7cf6a041",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "aa0016278532479da44a46686b3333aed46d5d1ac112f77b334254cb014cd86d",
+      "source_revision": "8770ac41322be2a7de83a4c375bd4884e320ea4e",
+      "target": "audiodecoder.snesapu",
+      "url": "https://github.com/xbmc/audiodecoder.snesapu",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.ssf": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "030fe8a7c7c21eb7be999c1537fc60c678690cd080933f7e2906eececf787c2a",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "f46957c66a2221e866896956e96e13be00da4771d4a10714607ab7f1a8debfd1",
+      "source_revision": "692ace7752e84dedfd76a741266fbe778df845ef",
+      "target": "audiodecoder.ssf",
+      "url": "https://github.com/xbmc/audiodecoder.ssf",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.stsound": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "c21bfffa36d3e8c346106097b69ee1c1e5ed4800ba99505614b5ea5f9bd63aaa",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "56c16628eee65ddd2525a8486d42eef9881e3dae39d607fbed37b02b3be79ec7",
+      "source_revision": "2ae3092092e0bd7522b1ac3d8e2c7f77dd71d309",
+      "target": "audiodecoder.stsound",
+      "url": "https://github.com/xbmc/audiodecoder.stsound",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.usf": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "febfb5f3b67929d4898033203562d25ce58790e84a75f7caedbceee366ab734d",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "1f6cbeef53d41874b35a2cc2a1b395f0676fe7f282724a657c4b3f5cce31c097",
+      "source_revision": "0df2a0a09fd8f68e3275c20e6fec3d5cab14f621",
+      "target": "audiodecoder.usf",
+      "url": "https://github.com/xbmc/audiodecoder.usf",
+      "version": "22.0.3+ps5.1"
+    },
+    "audiodecoder.wsr": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "895182f01aa86b2135cbec90e0d9d045c6e6e8af645e9412b9414e4a87cb5d16",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "945eaaca02983acf240c1723af37862ae71ee84e5c7204840c72a13af52ea6aa",
+      "source_revision": "c3cf811973ea34768733949a007a8e3c37cbafa1",
+      "target": "audiodecoder.wsr",
+      "url": "https://github.com/xbmc/audiodecoder.wsr",
+      "version": "22.0.3+ps5.1"
+    },
+    "inputstream.adaptive": {
+      "bundled": true,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ce6339ae4931e5e4ab12dbc1d14e754e0baa64c2a974a9132f7891f8b422701f",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "7d6f6a8a622d42c27d648b9299388093193b147d92218b625ce63c176c4bcf92",
+      "source_revision": "e7418d4e8441dc53316657faf34c2f353c901a7e",
+      "target": "inputstream.adaptive",
+      "url": "https://github.com/xbmc/inputstream.adaptive",
+      "version": "22.3.23+ps5.1"
+    },
+    "screensaver.asteroids": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "7b5c7e9919e0848bdddb3581b4113d46fc8e175cdc0efdce79146ce0e70d5165",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "bc167a91698ff818f64ee69840acf5eb5d6511a91125d6f012d814fc3b70a1b3",
+      "source_revision": "a120539675830a8c408d7e611918cb7e9d39e60c",
+      "target": "screensaver.asteroids",
+      "url": "https://github.com/xbmc/screensaver.asteroids",
+      "version": "22.0.6+ps5.1"
+    },
+    "screensaver.asterwave": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "4290a383c8785b7d72f250b3b25881942ed38a8420cdac3e6e2831cd501a2984",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "7c4145c86043811e6e98381d64da3b0dde1dc2e8fa6564f7742dda75fd2bc4f0",
+      "source_revision": "8a5be82409efd12e8da3e22e9c7b5728a1e6b890",
+      "target": "screensaver.asterwave",
+      "url": "https://github.com/xbmc/screensaver.asterwave",
+      "version": "22.0.5+ps5.1"
+    },
+    "screensaver.biogenesis": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "2e623c55351052bafb795d276c04c6c917bbbac0d2cc351d98d9d260402f14ea",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "5645f84e4ce384ba7640dfb932ae93b33d940c4ce60abe0354d127c20f571287",
+      "source_revision": "e0598b4e59629e221a4852a59d9a047b1bf6e89a",
+      "target": "screensaver.biogenesis",
+      "url": "https://github.com/xbmc/screensaver.biogenesis",
+      "version": "22.0.6+ps5.1"
+    },
+    "screensaver.greynetic": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "a54809c4f5ef611700854d6249b3dd5f5a8638cce615a55048f3fc624ce3a7f7",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "d148bb470b31a8557c3ea67aca88719ef3232f114ba3183ef0c94af110ee2c29",
+      "source_revision": "1f6e33eb5c815a9361e54060c1de5b11e5889c0b",
+      "target": "screensaver.greynetic",
+      "url": "https://github.com/xbmc/screensaver.greynetic",
+      "version": "22.0.6+ps5.1"
+    },
+    "screensaver.matrixtrails": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "9ffca4103b8f6a39de8a65c7391ab3a5b485364c02603bcd4c0fc9b7395184cf",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "eaf91312236df915c9539f9d50adfcb8a9cda940a7bc7d1ac2e7e23c7c912821",
+      "source_revision": "dc390b9fc8ce37e21feb8537c9b50d9f0f4c71a8",
+      "target": "screensaver.matrixtrails",
+      "url": "https://github.com/xbmc/screensaver.matrixtrails",
+      "version": "22.0.5+ps5.1"
+    },
+    "screensaver.microcosm.biof": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "d8e26111165e0365966b27042165b13b7b4a4e815dda00b309c0878f30b23c2c",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.pyro": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "70e7853e1c3994e4204011af18c3354d697d8aaccd712d6a992dd0e3e9a59a8a",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "67c680b7b17b1fcef7a29e1eef5d541f1bba0af600de3a0cbdc6bfe54a8bba09",
+      "source_revision": "f66119d1ccb830ffcdcaa2e5ea5e768d8b57798a",
+      "target": "screensaver.pyro",
+      "url": "https://github.com/xbmc/screensaver.pyro",
+      "version": "22.0.6+ps5.1"
+    },
+    "screensaver.rsxs.drempels": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "8caee3f58d524d90d76c52dd82a0b975598c627dc5067b01ceaeaa19287cd513",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.rsxs.feedback": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "b5755eb58fcd220fc8d1eca6b0f697b1a8f1c72b4e1188e117f0d42e3d47ad1d",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.rsxs.fieldlines": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "5d563c61addbba9fc5758dc711298832e8b89661a86e454511af2022b8ff23fb",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.rsxs.flux": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "6e7282f6791b5f4210940695e95fd42c68f997acc6d8b0926e7301f8aae40842",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.rsxs.helios": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "59ccc57480b4fd1c32de77f6875664294b4a2d00fa106a3cda3b95f007f58038",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.rsxs.lorenz": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "c120b77b71d3f3317eb569bafdc8195cebaf7d9efecc14e5be11fcabf328a73e",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.rsxs.plasma": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "ad3b4061e79452b088be339231e0f273499f9e659f3d21a48dcb4080836f3c77",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "eabc644b675a6529fb43b56903148a1db379c3ff4496d5f6866da51e03eb4b3c",
+      "source_revision": "b617caff11cd99bc232886978de4557907dd73ac",
+      "target": "screensavers.rsxs",
+      "url": "https://github.com/xbmc/screensavers.rsxs",
+      "version": "22.0.7+ps5.1"
+    },
+    "screensaver.shadertoy": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "98a87c5663a9462ed1ef604d7f6bda752b11c38db9b1bf46df3a915b163743e9",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "534751f93a0fffc309fd61d971fb87b4fa2da5d079b11e0e600a2dd05df65298",
+      "source_revision": "c266b8b143831685236ca5cf15955dff92e459ed",
+      "target": "screensaver.shadertoy",
+      "url": "https://github.com/xbmc/screensaver.shadertoy",
+      "version": "22.0.5+ps5.1"
+    },
+    "screensaver.stars": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "d4803b6493843765b5754aabe840f7e29244e1a412c56364749a09c4ef2e26a2",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "7844d902dc2e0d208d9c704fe5e2d89e78cfb583b638fccfdf2b02f8fd14e332",
+      "source_revision": "2405853d96e6a0c8cbd11fae8b67c3c7699ee93c",
+      "target": "screensaver.stars",
+      "url": "https://github.com/xbmc/screensaver.stars",
+      "version": "22.0.5+ps5.1"
+    }
+  },
+  "runtime": "piers-ps5-1",
+  "schema": 1,
+  "title_sha256": "e1d683352336e041279da938a9bb8970e26e01cfebc3ed6530cb608694accbed"
+}

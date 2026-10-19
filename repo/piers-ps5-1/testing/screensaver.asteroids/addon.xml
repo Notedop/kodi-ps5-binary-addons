@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="screensaver.asteroids" version="22.0.6+ps5.1" name="Asteroids" provider-name="Team Kodi">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
+<import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.asteroids.so.22.0.6" />
+  <extension point="xbmc.addon.metadata">
+    <platform>ps5</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/screensaver.asteroids</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+    <summary lang="af_ZA">Asteroids skermskut</summary>
+    <summary lang="bs_BA">Čuvar ekrana s asteroidima</summary>
+    <summary lang="ca_ES">Estalvi de pantalla d'asteroides</summary>
+    <summary lang="cs_CZ">Spořič obrazovky Asteroids</summary>
+    <summary lang="da_DK">Asteroids pauseskærm</summary>
+    <summary lang="de_DE">Bildschirmschoner Asteroids</summary>
+    <summary lang="en_GB">Asteroids screensaver</summary>
+    <summary lang="eo">Ekrankurteno Asteroidoj</summary>
+    <summary lang="es_ES">Salvapantallas Asteroides</summary>
+    <summary lang="et_EE">Asteroids-ekraanisäästja</summary>
+    <summary lang="eu_ES">Asteroideen babes-pantaila</summary>
+    <summary lang="fi_FI">Asteroids-näytönsäästäjä</summary>
+    <summary lang="fr_FR">Économiseur d'écran d'astéroïdes</summary>
+    <summary lang="hr_HR">Asteroids čuvar zaslona</summary>
+    <summary lang="it_IT">Salvaschermo Asteroids</summary>
+    <summary lang="ko_KR">소행성 화면 보호기</summary>
+    <summary lang="pl_PL">Wygaszacz ekranu Asteroidy</summary>
+    <summary lang="pt_BR">Protetor de tela Asteroides</summary>
+    <summary lang="ru_RU">Заставка Asteroids</summary>
+    <summary lang="sv_SE">Asteroids skärmsläckare</summary>
+    <summary lang="uk_UA">Заставка Астероїди</summary>
+    <summary lang="zh_CN">小行星屏保</summary>
+    <description lang="af_ZA">'n Ou-styl skermskut waar die asteroïdes weggeskiet word.</description>
+    <description lang="bs_BA">Starinski čuvar ekrana gdje se asteroidi odbijaju.</description>
+    <description lang="ca_ES">Un estalvi de pantalla d'estil antic on els asteroides surten disparats.</description>
+    <description lang="cs_CZ">Spořič obrazovky ve starém stylu, ve kterém se odstřelují asteroidy.</description>
+    <description lang="da_DK">En pauseskærm i gammel stil, hvor asteroiderne bliver skudt væk.</description>
+    <description lang="de_DE">Ein Bildschirmschoner alten Stils, bei dem die Asteroiden weggeschossen werden.</description>
+    <description lang="en_GB">An old-style screen saver where the asteroids are shot away.</description>
+    <description lang="eo">Malnov-stila ekrankurteno en kiu la asteroidoj estas forpafitaj.</description>
+    <description lang="es_ES">Un salvapantallas a la antigua usanza donde se disparan asteroides.</description>
+    <description lang="et_EE">Vana stiilis ekraanisäästja, kus tulistatakse asteroide.</description>
+    <description lang="fi_FI">Vanhan tyylinen näytönsäästäjä, jossa ammutaan asteroideja.</description>
+    <description lang="fr_FR">Un économiseur d'écran à l'ancienne où les astéroïdes sont abattus.</description>
+    <description lang="hr_HR">Čuvar zaslona starinskog izgleda u kojem se otpucavaju asteroidi.</description>
+    <description lang="it_IT">Un salvaschermo vecchio stile in cui vengono distrutti degli asteroidi.</description>
+    <description lang="ko_KR">소행성이 총격을 당하는 구식 화면 보호기.</description>
+    <description lang="pl_PL">Wygaszacz ekranu w starym stylu, w którym asteroidy są zestrzeliwane.</description>
+    <description lang="pt_BR">Um protetor de tela de estilo antigo, onde os asteroides são disparados.</description>
+    <description lang="ru_RU">Заставка, выполненная в старом стиле, где звездолёт сражается с астероидами.</description>
+    <description lang="sv_SE">En gammaldags skärmsläckare där asteroiderna skjuts iväg.</description>
+    <description lang="uk_UA">Заставка, яка виконана в старому стилі, з руйнуванням астероїдів.</description>
+    <description lang="zh_CN">一个老式的屏幕保护程序，小行星被射出。</description>
+  </extension>
+</addon>

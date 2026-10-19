@@ -1,0 +1,8 @@
+{
+  "fingerprint": "c21bfffa36d3e8c346106097b69ee1c1e5ed4800ba99505614b5ea5f9bd63aaa",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "2ae3092092e0bd7522b1ac3d8e2c7f77dd71d309",
+  "target": "audiodecoder.stsound",
+  "url": "https://github.com/xbmc/audiodecoder.stsound"
+}

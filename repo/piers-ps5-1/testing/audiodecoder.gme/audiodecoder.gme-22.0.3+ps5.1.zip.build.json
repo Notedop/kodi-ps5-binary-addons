@@ -1,0 +1,8 @@
+{
+  "fingerprint": "3fc9a72fb6b25b1cd4f7bd01167f5aacc22cef65e27933724d113393a731a2fd",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "0ec47634fa57a0f8debdae5066226a3976768ca5",
+  "target": "audiodecoder.gme",
+  "url": "https://github.com/xbmc/audiodecoder.gme"
+}

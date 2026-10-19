@@ -1,0 +1,8 @@
+{
+  "fingerprint": "1428eef534e870f0d9b15c749c8ef7e24cbcb173ae2d77f6b9f012bd7cf6a041",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "8770ac41322be2a7de83a4c375bd4884e320ea4e",
+  "target": "audiodecoder.snesapu",
+  "url": "https://github.com/xbmc/audiodecoder.snesapu"
+}

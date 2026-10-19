@@ -1,0 +1,8 @@
+{
+  "fingerprint": "9ffca4103b8f6a39de8a65c7391ab3a5b485364c02603bcd4c0fc9b7395184cf",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "dc390b9fc8ce37e21feb8537c9b50d9f0f4c71a8",
+  "target": "screensaver.matrixtrails",
+  "url": "https://github.com/xbmc/screensaver.matrixtrails"
+}

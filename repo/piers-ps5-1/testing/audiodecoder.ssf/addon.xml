@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="audiodecoder.ssf" version="22.0.3+ps5.1" name="SSF/DSF Audio Decoder" provider-name="spiff">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="ssf" tags="true" library_freebsd="audiodecoder.ssf.so.22.0.3">
+    <support>
+      <extension name=".ssf">
+        <description>30100</description>
+      </extension>
+      <extension name=".minissf">
+        <description>30101</description>
+      </extension>
+      <extension name=".dsf">
+        <description>30102</description>
+      </extension>
+      <extension name=".minidsf">
+        <description>30103</description>
+      </extension>
+    </support>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>ps5</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/audiodecoder.ssf</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary lang="bs_BA">Sega SSF/DSF audio dekoder</summary>
+    <summary lang="ca_ES">Descodificador d'àudio Sega SSF/DSF</summary>
+    <summary lang="cs_CZ">Dekodér zvuku Sega SSF/DSF</summary>
+    <summary lang="da_DK">Sega SSF/DSF lydafkoder</summary>
+    <summary lang="de_DE">Sega SSF/DSF Audio Decoder</summary>
+    <summary lang="en_GB">Sega SSF/DSF Audio Decoder</summary>
+    <summary lang="es_ES">Decodificador de Audio Sega SSF/DSF</summary>
+    <summary lang="es_MX">Decodificador de audio de Sega SSF/DSF</summary>
+    <summary lang="et_EE">Sega SSF/DSF helidekooder</summary>
+    <summary lang="fr_FR">Décodeur audio Sega SSF/DSF</summary>
+    <summary lang="hr_HR">Sega SSF/DSF zvučni dekôder</summary>
+    <summary lang="it_IT">Decodificatore audio Sega SSF/DSF</summary>
+    <summary lang="ko_KR">Sega SSF/DSF 오디오 디코더</summary>
+    <summary lang="ru_RU">Аудиодекодер Sega SSF/DSF</summary>
+    <summary lang="sv_SE">Sega SSF/DSF-ljudavkodare</summary>
+    <summary lang="zh_CN">世嘉 SSF/DSF 音频解码器</summary>
+    <summary lang="zh_TW">Sega SSF/DSF 音訊解碼器</summary>
+    <description lang="bs_BA">Sega Saturn Sound Format (SSF) i Dreamcast Sound Format (DSF) su audio formati zasnovani na PSF-u. Pohranjuju audio zapise ripovane iz ROM-ova igara Sega Saturn i Sega Dreamcast.</description>
+    <description lang="ca_ES">Sega Saturn Sound Format (SSF) i Dreamcast Sound Format (DSF) és un format d'àudio basat en PSF. Emmagatzema àudio extret de les ROM dels jocs Sega Saturn i Sega Dreamcast.</description>
+    <description lang="cs_CZ">Sega Saturn Sound Format (SSF) a Dreamcast Sound Format (DSF) jsou zvukové formáty založené na PSF. Ukládají zvuk extrahovaný z ROM her pro Sega Saturn a Sega Dreamcast.</description>
+    <description lang="da_DK">Sega Saturn Sound Format (SSF) og Dreamcast Sound Format (DSF) er et lydformat baseret på PSF. Det gemmer lyd rippet fra ROM'erne i Sega Saturn- og Sega Dreamcast-spil.</description>
+    <description lang="de_DE">Das Sega Saturn Sound Format (SSF) und das Dreamcast Sound Format (DSF) ist ein auf PSF basierendes Audioformat. Es speichert Audio, das aus den ROMs von Sega Saturn- und Sega Dreamcast-Spielen gerippt wurde.</description>
+    <description lang="en_GB">Sega Saturn Sound Format (SSF) and Dreamcast Sound Format (DSF) is an audio format based on PSF. It stores audio ripped from the ROMs of Sega Saturn and Sega Dreamcast games.</description>
+    <description lang="es_ES">Sega Saturn Sound Format (SSF) y Dreamcast Sound Format (DSG) son formatos de audio basados en PSF. Almacena el audio transferido de las ROMs de los juegos de Sega Saturn y Sega Dreamcast.</description>
+    <description lang="fr_FR">Sega Saturn Sound Format (SSF) et Dreamcast Sound Format (DSF) est un format audio basé sur PSF. Il stocke l'audio extrait des ROM des jeux Sega Saturn et Sega Dreamcast.</description>
+    <description lang="hr_HR">Sega Saturn Sound Format (SSF) i Dreamcast Sound Format (DSF) je zvučni format temeljen na PSF. Sprema zvuk izdvojen iz ROM-a Sega Saturn i Sega Dreamcast igra.</description>
+    <description lang="it_IT">Sega Saturn Sound Format (SSF) e Dreamcast Sound Format (DSF) sono un formato audio basato su PSF. Memorizza l'audio estratto dalle ROM dei giochi Sega Saturn e Sega Dreamcast.</description>
+    <description lang="ko_KR">Sega Saturn Sound Format(SSF) 및 Dreamcast Sound Format(DSF)은 PSF를 기반으로 하는 오디오 형식입니다. Sega Saturn 및 Sega Dreamcast 게임의 ROM에서 추출한 오디오를 저장합니다.</description>
+    <description lang="ru_RU">Sega Saturn Sound Format (SSF) и Dreamcast Sound Format (DSF) - это аудиоформаты, основанные на PSF. В них хранятся аудио, извлеченные из ПЗУ игр Sega Saturn и Sega Dreamcast.</description>
+    <description lang="sv_SE">Sega Saturn Sound Format (SSF) och Dreamcast Sound Format (DSF) är ett ljudformat baserat på PSF. Det lagrar ljud som extraherats från ROM:arna i Sega Saturn- och Sega Dreamcast-spel.</description>
+    <description lang="zh_CN">世嘉土星声音格式（SSF）和梦工厂声音格式（DSF）是基于 PSF 的音频格式。它存储从世嘉土星和世嘉梦工厂主机游戏 ROM 中提取的音频。</description>
+  </extension>
+</addon>

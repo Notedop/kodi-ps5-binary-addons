@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="screensaver.matrixtrails" version="22.0.5+ps5.1" name="Matrix trails" provider-name="spiff">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
+<import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
+<import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.matrixtrails.so.22.0.5" />
+  <extension point="xbmc.addon.metadata">
+    <platform>ps5</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc/screensaver.matrixtrails</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshot-04.jpg</screenshot>
+    </assets>
+    <summary lang="bs_BA">Čuvar ekrana za tragove Matrixa</summary>
+    <summary lang="cs_CZ">Spořič obrazovky s deštěm Matrixu</summary>
+    <summary lang="da_DK">Matrix Trails pauseskærm</summary>
+    <summary lang="de_DE">Matrix Regen Bildschirmschoner</summary>
+    <summary lang="en_GB">Matrix trails screensaver</summary>
+    <summary lang="es_ES">Salvapantallas Senderos Matrix</summary>
+    <summary lang="et_EE">Matrix-jäljed ekraanisäästja</summary>
+    <summary lang="fi_FI">Matrix-jäljet-näytönsäästäjä</summary>
+    <summary lang="it_IT">Salvaschermo con scie di Matrix</summary>
+    <summary lang="ru_RU">Хранитель экрана «Следы из Матрицы»</summary>
+    <summary lang="sv_SE">Matrix-spår skärmsläckare</summary>
+    <summary lang="zh_CN">黑客帝国轨迹屏幕保护程序</summary>
+    <description lang="bs_BA">Efekat "digitalne kiše", kakav se vidi na monitorima računara u filmu "Matrix".[CR][CR]U postavkama možete definirati i vlastite boje i veličine kiše.</description>
+    <description lang="cs_CZ">Efekt „digitálního deště“, jaký je vidět na počítačových monitorech ve filmu „Matrix“.[CR][CR]V jeho nastavení můžete určit také vlastní barvy a rozměry deště.</description>
+    <description lang="da_DK">Den "digitale regn"-effekt, som ses på computerskærme i "The Matrix".[CR][CR]I indstillingerne kan du også definere dine egne farver og størrelse på regnen.</description>
+    <description lang="de_DE">Der "digitale Regen" Effekt, wie er auf den Computermonitoren in "Matrix" zu sehen ist.[CR][CR]In seinen Einstellungen kannst du auch eigene Farben und Größen des Regens bestimmen.</description>
+    <description lang="en_GB">The "digital rain" effect, as seen on the computer monitors in "The Matrix".[CR][CR]In its settings you can also define your own colors and sizes of rain.</description>
+    <description lang="es_ES">El efecto "lluvia digital", como se ve en los monitores de ordenador en "Matrix".[CR][CR]En sus ajustes también puedes definir tus propios colores y tamaños de lluvia.</description>
+    <description lang="et_EE">"Digitaalse vihma" efekt, nagu on arvutimonitoridel filmis "Matrix".[CR][CR]Selle seadetes saate määrata ka oma vihma värvid ja suurused.</description>
+    <description lang="fi_FI">"The Matrix" -elokuvan tietokonenäytöiltä tuttu "digitaalinen sade" -tehoste.[CR][CR]Lisäosan asetuksista voit myös määrittää sateelle omat värit ja koot.</description>
+    <description lang="it_IT">L'effetto "pioggia digitale", come si vede sui monitor dei computer in "Matrix".[CR][CR]Nelle sue impostazioni è anche possibile definire i propri colori e le dimensioni della pioggia.</description>
+    <description lang="ru_RU">Эффект «цифрового дождя», как на компьютерных мониторах в «Матрице».[CR][CR]В его настройках вы также можете задать собственные цвета и размеры дождя.</description>
+    <description lang="sv_SE">Effekten ”digitalt regn”, som man ser på datorskärmarna i ”The Matrix”[CR][CR]I inställningarna kan du också definiera dina egna färger och storlekar på regnet.</description>
+    <description lang="zh_CN">“数字雨”效果，如影片《黑客帝国》中的计算机显示器所示。[CR][CR]在其设置中，您还可以定义自己的雨的颜色和大小。</description>
+  </extension>
+</addon>

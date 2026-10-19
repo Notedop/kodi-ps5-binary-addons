@@ -1,0 +1,8 @@
+{
+  "fingerprint": "2e623c55351052bafb795d276c04c6c917bbbac0d2cc351d98d9d260402f14ea",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "e0598b4e59629e221a4852a59d9a047b1bf6e89a",
+  "target": "screensaver.biogenesis",
+  "url": "https://github.com/xbmc/screensaver.biogenesis"
+}

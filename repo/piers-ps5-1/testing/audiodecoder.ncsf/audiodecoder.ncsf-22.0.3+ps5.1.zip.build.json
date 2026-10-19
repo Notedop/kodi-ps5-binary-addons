@@ -1,0 +1,8 @@
+{
+  "fingerprint": "046f2f80aa1db5dbdd42ab7346e849d5a13beb14a41a3da0d9124166a6f65b52",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "c3c545a71255a7edceacc0d193d626f6ec83690a",
+  "target": "audiodecoder.ncsf",
+  "url": "https://github.com/xbmc/audiodecoder.ncsf"
+}

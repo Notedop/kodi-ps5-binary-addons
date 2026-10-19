@@ -1,0 +1,8 @@
+{
+  "fingerprint": "98a87c5663a9462ed1ef604d7f6bda752b11c38db9b1bf46df3a915b163743e9",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "c266b8b143831685236ca5cf15955dff92e459ed",
+  "target": "screensaver.shadertoy",
+  "url": "https://github.com/xbmc/screensaver.shadertoy"
+}

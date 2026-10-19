@@ -1,0 +1,8 @@
+{
+  "fingerprint": "ca24d95342a75486fefe2948b77ce844fd88e6a91a43eeb1f03d0332a11ed5fb",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "ed24a15f9ed01cfdafe1f051895d11c5286a442f",
+  "target": "audiodecoder.qsf",
+  "url": "https://github.com/xbmc/audiodecoder.qsf"
+}

@@ -1,0 +1,8 @@
+{
+  "fingerprint": "ce6339ae4931e5e4ab12dbc1d14e754e0baa64c2a974a9132f7891f8b422701f",
+  "revision": 1,
+  "runtime": "piers-ps5-1",
+  "source_revision": "e7418d4e8441dc53316657faf34c2f353c901a7e",
+  "target": "inputstream.adaptive",
+  "url": "https://github.com/xbmc/inputstream.adaptive"
+}
