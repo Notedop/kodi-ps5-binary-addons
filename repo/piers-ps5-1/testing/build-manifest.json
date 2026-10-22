@@ -238,6 +238,20 @@
       "url": "https://github.com/xbmc/inputstream.adaptive",
       "version": "22.3.23+ps5.1"
     },
+    "pvr.hts": {
+      "bundled": false,
+      "channels": [
+        "testing"
+      ],
+      "fingerprint": "3750b5f650ac4a7df2db32b1bafcac542a677ef672e9e0c4b60552cbe1c6b283",
+      "revision": 1,
+      "runtime": "piers-ps5-1",
+      "sha256": "c5739e790683f1ea3be0daceb673d3b560e55e0f9ffd871f8b0b560b91064e78",
+      "source_revision": "5e97cdfd696b87b1ceb33820719cc37ebe307475",
+      "target": "pvr.hts",
+      "url": "https://github.com/kodi-pvr/pvr.hts",
+      "version": "22.9.4+ps5.1"
+    },
     "screensaver.asteroids": {
       "bundled": false,
       "channels": [
@@ -465,5 +479,5 @@
   },
   "runtime": "piers-ps5-1",
   "schema": 1,
-  "title_sha256": "e1d683352336e041279da938a9bb8970e26e01cfebc3ed6530cb608694accbed"
+  "title_sha256": "a11d2fa6f5defa6c6b94aacaa88b2f7f70f8ad436f474fd766b9a5d79770252e"
 }

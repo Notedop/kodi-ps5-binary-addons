@@ -2,7 +2,7 @@
 
 Generated PS5 packages, not upstream add-on source checkouts. Current runtime generation: `piers-ps5-1`.
 
-Compatible Kodi PS5 builds include the stable repository. The testing repository ZIP linked by index.html is an explicit opt-in to unaccepted candidates. Build success and host export validation are not console acceptance. Packages are not generic FreeBSD binaries.
+Compatible Kodi PS5 builds include the enabled stable repository and the testing repository, disabled on first discovery. Enable Kodi PS5 Testing Add-ons under My add-ons > Add-on repository to opt in to unaccepted candidates; the testing repository ZIP linked by index.html also remains available for manual installation. Build success and host export validation are not console acceptance. Packages are not generic FreeBSD binaries.
 
 ## Maintaining this repository
 
