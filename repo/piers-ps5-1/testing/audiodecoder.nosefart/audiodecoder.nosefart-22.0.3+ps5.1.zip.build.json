@@ -1,8 +1,0 @@
-{
-  "fingerprint": "a0c08ed0e6a3a50b9c150d8f9dc4cdb4fbe6bd7924c599a38b0f25be162b8cc8",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "d2f716b3af931b74a2f40c896464e6e9d0f1dd1c",
-  "target": "audiodecoder.nosefart",
-  "url": "https://github.com/xbmc/audiodecoder.nosefart"
-}

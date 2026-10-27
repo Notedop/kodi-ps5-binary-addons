@@ -1,8 +1,0 @@
-{
-  "fingerprint": "9d8eda0051f0565dd667cfdce625f908b9f5f5154f6bd185296ae59d030d3eed",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "ec797305a4583d6690989cf18b804b55f95829b1",
-  "target": "audiodecoder.sidplay",
-  "url": "https://github.com/xbmc/audiodecoder.sidplay"
-}

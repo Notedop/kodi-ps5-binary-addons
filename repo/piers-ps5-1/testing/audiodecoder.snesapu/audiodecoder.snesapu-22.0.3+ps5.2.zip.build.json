@@ -1,0 +1,730 @@
+{
+  "fingerprint": "36b7d09b222c8b0503f0f14cc25ea06a467d222f7f4bc0d1bb914afa4dfcb45e",
+  "native": {
+    "compiler_abi": "ps5-sdk-native-frontend-v1",
+    "format": "ps5-native-addon",
+    "module": "audiodecoder.snesapu",
+    "native_dependencies": {
+      "imports": [
+        {
+          "dynsym_index": 1,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "memset",
+          "native_name": "8zTFvBIAIN8#C#C",
+          "nid": "8zTFvBIAIN8",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 2,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__cxa_allocate_exception",
+          "native_name": "cfAXurvfl5o#B#B",
+          "nid": "cfAXurvfl5o",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 3,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt11logic_errorC1EPKc",
+          "native_name": "SO2t6H8yCuI#B#B",
+          "nid": "SO2t6H8yCuI",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 4,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTISt11logic_error",
+          "native_name": "x8LHSvl5N6I#B#B",
+          "nid": "x8LHSvl5N6I",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 5,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt11logic_errorD1Ev",
+          "native_name": "i726T0BHbOU#B#B",
+          "nid": "i726T0BHbOU",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 6,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__cxa_throw",
+          "native_name": "vkuuLfhnSZI#B#B",
+          "nid": "vkuuLfhnSZI",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 7,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__cxa_free_exception",
+          "native_name": "nOIEswYD4Ig#B#B",
+          "nid": "nOIEswYD4Ig",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 8,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_Unwind_Resume",
+          "native_name": "f1zwJ3jAI2k#B#B",
+          "nid": "f1zwJ3jAI2k",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 9,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZdaPv",
+          "native_name": "MLWl90SFWNE#B#B",
+          "nid": "MLWl90SFWNE",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 10,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__cxa_begin_catch",
+          "native_name": "3cUUypQzMiI#B#B",
+          "nid": "3cUUypQzMiI",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 11,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZSt9terminatev",
+          "native_name": "qYhnoevd9bI#B#B",
+          "nid": "qYhnoevd9bI",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 12,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZdlPv",
+          "native_name": "z+P+xCnWLBk#B#B",
+          "nid": "z+P+xCnWLBk",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 13,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+          "native_name": "7RfNFTm5Atw#B#B",
+          "nid": "7RfNFTm5Atw",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 14,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+          "native_name": "PudLWevwWbE#B#B",
+          "nid": "PudLWevwWbE",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 15,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_Znam",
+          "native_name": "hdm0YfMa7TQ#B#B",
+          "nid": "hdm0YfMa7TQ",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 16,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_Znwm",
+          "native_name": "fJnpuVVBbKk#B#B",
+          "nid": "fJnpuVVBbKk",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 17,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "memcpy",
+          "native_name": "Q3VBxCXhUHs#C#C",
+          "nid": "Q3VBxCXhUHs",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 18,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm",
+          "native_name": "9wUI3k4sA18#B#B",
+          "nid": "9wUI3k4sA18",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 19,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "isalnum",
+          "native_name": "4uJJNi+C9wk#C#C",
+          "nid": "4uJJNi+C9wk",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 20,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+          "native_name": "ijZnEQH4r2A#B#B",
+          "nid": "ijZnEQH4r2A",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 21,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "snprintf",
+          "native_name": "eLdDw6l0-bU#C#C",
+          "nid": "eLdDw6l0-bU",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 22,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "strlen",
+          "native_name": "j4ViWNHEgww#C#C",
+          "nid": "j4ViWNHEgww",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 23,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "memmove",
+          "native_name": "+P6FRGH4LfA#C#C",
+          "nid": "+P6FRGH4LfA",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 24,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "atoi",
+          "native_name": "fPxypibz2MY#C#C",
+          "nid": "fPxypibz2MY",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 25,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc",
+          "native_name": "9dMuOS0WKik#B#B",
+          "nid": "9dMuOS0WKik",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 26,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__19to_stringEi",
+          "native_name": "9opgsWBuFn8#B#B",
+          "nid": "9opgsWBuFn8",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 27,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "memchr",
+          "native_name": "8u8lPzUEq+U#C#C",
+          "nid": "8u8lPzUEq+U",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 28,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "bcmp",
+          "native_name": "5TjaJwkLWxE#C#C",
+          "nid": "5TjaJwkLWxE",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 29,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__19to_stringEf",
+          "native_name": "1Kn-3Qr1JSs#B#B",
+          "nid": "1Kn-3Qr1JSs",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 30,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "strdup",
+          "native_name": "g7zzzLDYGw0#C#C",
+          "nid": "g7zzzLDYGw0",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 31,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTISt12length_error",
+          "native_name": "cxqzgvGm1GI#B#B",
+          "nid": "cxqzgvGm1GI",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 32,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt12length_errorD1Ev",
+          "native_name": "n3y8Rn9hXJo#B#B",
+          "nid": "n3y8Rn9hXJo",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 33,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt11logic_errorC2EPKc",
+          "native_name": "5+AHnXOCOjo#B#B",
+          "nid": "5+AHnXOCOjo",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 34,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTVSt12length_error",
+          "native_name": "cqvea9uWpvQ#B#B",
+          "nid": "cqvea9uWpvQ",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 35,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt20bad_array_new_lengthC1Ev",
+          "native_name": "QFc2dC1wfC0#B#B",
+          "nid": "QFc2dC1wfC0",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 36,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTISt20bad_array_new_length",
+          "native_name": "lbLEAN+Y9iI#B#B",
+          "nid": "lbLEAN+Y9iI",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 37,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt20bad_array_new_lengthD1Ev",
+          "native_name": "XO3N4SBvCy0#B#B",
+          "nid": "XO3N4SBvCy0",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 38,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTISt12out_of_range",
+          "native_name": "dKjhNUf9FBc#B#B",
+          "nid": "dKjhNUf9FBc",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 39,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt12out_of_rangeD1Ev",
+          "native_name": "Kcb+MNSzZcc#B#B",
+          "nid": "Kcb+MNSzZcc",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 40,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTVSt12out_of_range",
+          "native_name": "n+aUKkC-3sI#B#B",
+          "nid": "n+aUKkC-3sI",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 41,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "vsnprintf",
+          "native_name": "Q2V+iqvjgC0#C#C",
+          "nid": "Q2V+iqvjgC0",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 42,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__119__shared_weak_count14__release_weakEv",
+          "native_name": "4V1vZ9xMj48#B#B",
+          "nid": "4V1vZ9xMj48",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 43,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZNSt3__112__next_primeEm",
+          "native_name": "N1vVU8lMj74#B#B",
+          "nid": "N1vVU8lMj74",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 44,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTVN10__cxxabiv117__class_type_infoE",
+          "native_name": "byV+FWlAnB4#B#B",
+          "nid": "byV+FWlAnB4",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 45,
+          "info": 17,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+          "native_name": "pZ9WXcClPO8#B#B",
+          "nid": "pZ9WXcClPO8",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 46,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__cxa_pure_virtual",
+          "native_name": "zr094EQ39Ww#B#B",
+          "nid": "zr094EQ39Ww",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 47,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__gxx_personality_v0",
+          "native_name": "XwLA5cTHjt4#B#B",
+          "nid": "XwLA5cTHjt4",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 48,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "__cxa_finalize",
+          "native_name": "H2e8t5ScQGc#C#C",
+          "nid": "H2e8t5ScQGc",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 49,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__unw_add_dynamic_eh_frame_section",
+          "native_name": "InIIVyX5OcA#B#B",
+          "nid": "InIIVyX5OcA",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 50,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__cxa_end_catch",
+          "native_name": "lX+4FNUklF0#B#B",
+          "nid": "lX+4FNUklF0",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 51,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__unw_remove_dynamic_eh_frame_section",
+          "native_name": "FaUAk4WK8Ls#B#B",
+          "nid": "FaUAk4WK8Ls",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 52,
+          "info": 18,
+          "library_id": 2,
+          "module_id": 2,
+          "name": "strcpy",
+          "native_name": "kiZSXIWd9vg#C#C",
+          "nid": "kiZSXIWd9vg",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 53,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__wrap_malloc",
+          "native_name": "CU9IhLZmIMs#B#B",
+          "nid": "CU9IhLZmIMs",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        },
+        {
+          "dynsym_index": 54,
+          "info": 18,
+          "library_id": 1,
+          "module_id": 1,
+          "name": "__wrap_free",
+          "native_name": "9vDUJXTPjfE#B#B",
+          "nid": "9vDUJXTPjfE",
+          "other": 0,
+          "size": 0,
+          "value": 0
+        }
+      ],
+      "libraries": [
+        {
+          "id": 1,
+          "name": "libkodi-runtime",
+          "version": 1
+        },
+        {
+          "id": 2,
+          "name": "libSceLibcInternal",
+          "version": 1
+        }
+      ],
+      "modules": [
+        {
+          "id": 1,
+          "name": "libkodi-runtime",
+          "soname": "libkodi-runtime.sprx",
+          "version": 257
+        },
+        {
+          "id": 2,
+          "name": "libSceLibcInternal",
+          "soname": "libSceLibcInternal.sprx",
+          "version": 257
+        }
+      ],
+      "needed": [
+        "libkodi-runtime.sprx",
+        "libSceLibcInternal.sprx"
+      ]
+    },
+    "native_elf_sha256": "4ed40f667488981e03928bdf0c98c3bcef94f2e585c84cd6635029d9daf975a9",
+    "needed": [
+      "libkodi-runtime.sprx",
+      "libSceLibcInternal.sprx"
+    ],
+    "output_sha256": "9f975aec8153989c90821ad3a6faff38fead0e1316ef0abf807a9c091007be81",
+    "provider_requirements": [
+      {
+        "library": "libkodi-runtime",
+        "library_version": 1,
+        "module": "libkodi-runtime",
+        "module_version": 257,
+        "soname": "libkodi-runtime.sprx"
+      },
+      {
+        "library": "libSceLibcInternal",
+        "library_version": 1,
+        "module": "libSceLibcInternal",
+        "module_version": 257,
+        "soname": "libSceLibcInternal.sprx"
+      }
+    ],
+    "providers": [
+      {
+        "manifest_sha256": "9bc45143012cb2d2c470376eb4531385592226ed4617f7421c4e0ed205975936",
+        "module": "libkodi-runtime"
+      },
+      {
+        "manifest_sha256": "285296d5a565ad48f75985d9f42b5382fe12e18ab0e61b329395150b1c809920",
+        "module": "libSceLibcInternal"
+      }
+    ],
+    "schema": 1,
+    "sign_extract_equal": true,
+    "source_sha256": "5d0cad85b6eea5f933722151295bf5840121744febea65d21e317b0e62777493"
+  },
+  "revision": 2,
+  "runtime": "piers-ps5-1",
+  "source_revision": "8770ac41322be2a7de83a4c375bd4884e320ea4e",
+  "target": "audiodecoder.snesapu",
+  "url": "https://github.com/xbmc/audiodecoder.snesapu"
+}

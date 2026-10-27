@@ -1,8 +1,0 @@
-{
-  "fingerprint": "030fe8a7c7c21eb7be999c1537fc60c678690cd080933f7e2906eececf787c2a",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "692ace7752e84dedfd76a741266fbe778df845ef",
-  "target": "audiodecoder.ssf",
-  "url": "https://github.com/xbmc/audiodecoder.ssf"
-}

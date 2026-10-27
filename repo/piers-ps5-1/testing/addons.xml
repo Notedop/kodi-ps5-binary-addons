@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="audiodecoder.2sf" version="22.0.5+ps5.1" name="2SF Audio Decoder" provider-name="spiff">
+<addons><addon id="audiodecoder.2sf" version="22.0.5+ps5.2" name="2SF Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="2sf" tags="true" library_freebsd="audiodecoder.2sf.so.22.0.5">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="2sf" tags="true" library_freebsd="audiodecoder.2sf.sprx">
     <support>
       <extension name=".2sf">
         <description>30100</description>
@@ -76,12 +76,12 @@
     <description lang="tr_TR">Bazı Nintendo DS oyunları tarafından kullanılan oyun ses dosyalarını desteklemek için kullanılır.[CR][CR]Çift Ekran Ses Biçimi, PSF tabanlı bir ses biçimidir. Nintendo DS oyunlarının ROM'larından çıkartılan ses dosyalarını depolar. Müzik yönergeleri .2sflib uzantısına iye dosyalarda ve müzik notasyonu ise .mini2sf uzantısına iye dosyalarda depolanır.</description>
     <description lang="zh_CN">支持某些任天堂 DS 游戏使用的游戏音频文件。[CR][CR]双屏声音格式是基于 PSF 的音频格式。它存储从任天堂 DS 游戏 ROM 中提取的音频。音乐指令存储在扩展名为.2sflib的文件中，音乐符号存储在扩展名为.mini2sf的文件中。</description>
   </extension>
-</addon><addon id="audiodecoder.asap" version="22.0.3+ps5.1" name="ASAP Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.asap" version="22.0.3+ps5.2" name="ASAP Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="asap" tags="true" tracks="true" library_freebsd="audiodecoder.asap.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="asap" tags="true" tracks="true" library_freebsd="audiodecoder.asap.sprx">
     <support>
       <extension name=".sap">
         <description>30100</description>
@@ -178,12 +178,12 @@
     <description lang="tr_TR">ASAP (Another Slight Atari Player/Bir Başka Hafif Atari Oyuncusu) Kodi'de 8-bit Atari müziğini (*.sap, *.cmc, *.mpt, *.rmt, *.tmc, ...) modern bilgisayarlarda ve mobil cihazlarda oynatır ve dönüştürür</description>
     <description lang="zh_CN">ASAP（Another Slight Atari Player，另一个轻量级雅达利播放器）在 Kodi 上播放，并在现代计算机和移动设备上转换8位雅达利音乐（*.sap、*.cmc、*.mpt、*.rmt、*.tmc等）。</description>
   </extension>
-</addon><addon id="audiodecoder.gme" version="22.0.3+ps5.1" name="GME Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.gme" version="22.0.3+ps5.2" name="GME Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="gme" tags="true" tracks="true" library_freebsd="audiodecoder.gme.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="gme" tags="true" tracks="true" library_freebsd="audiodecoder.gme.sprx">
     <support>
       <extension name=".gbs">
         <description>30100</description>
@@ -272,12 +272,12 @@
     <description lang="sv_SE">Game Music Emu (GME) -formatet används för att emulera ljudet från olika videospelkonsoler som var populära på 1980- och 1990-talet. Det ger ljudet en ”retro”-känsla.[CR][CR][B]Notera:[/B][CR]Inte alla filformat anger längd och i det här fallet är den inställd på 2,5 minuter. [CR][CR][B]Format som stöds:[/B][CR]- AY: ZX Spectrum/Amstrad CPC[CR]- GBS: Nintendo Game Boy[CR]- GYM: Sega Genesis/Mega Drive[CR]- HES: NEC TurboGrafx-16/PC Engine[CR]- KSS: MSX Home Computer/andra Z80-system (inget FM-ljud)[CR]- NSF/NSFE: Nintendo NES/Famicom (med VRC 6, Namco 106 och FME-7-ljud)[CR]- SAP: Atari-system med POKEY-ljudchip[CR]- SPC: Super Nintendo/Super Famicom[CR]- VGM/VGZ: Sega Master System/Mark III, Sega Genesis/Mega Drive,BBC Micro</description>
     <description lang="zh_CN">游戏音乐 Emu（GME）格式用于模拟20世纪80年代和90年代流行的各种视频游戏机的音频输出。它给声音一种“复古”的感觉。[CR][CR][B]注：[/B][CR]并非所有文件格式都给出时长，在这种情况下，它被设置为2.5分钟。[CR][CR][B]支持的格式：[/B][CR]- AY：ZX Spectrum/Amstrad CPC[CR]- GBS：任天堂 Game Boy[CR]- GYM：世嘉 Genesis/Mega Drive[CR]- HES：NEC TurboGrafx-16/PC Engine[CR]- KSS：MSX 家用电脑/其他Z80系统（无FM声音）[CR]- NSF/NSFE：任天堂 NES/Famicom（带有VRC 6、Namco 106 和 FME-7 声音）[CR]- SAP：雅达利系统使用 POKEY sound 芯片[CR]- SPC：超级任天堂/Super Famicom[CR]- VGM/VGZ：世嘉 Master System/Mark III、世嘉Genesis/Mega Drive、BBC Micro</description>
   </extension>
-</addon><addon id="audiodecoder.gsf" version="22.0.3+ps5.1" name="GSF Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.gsf" version="22.0.3+ps5.2" name="GSF Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="gsf" tags="true" library_freebsd="audiodecoder.gsf.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="gsf" tags="true" library_freebsd="audiodecoder.gsf.sprx">
     <support>
       <extension name=".minigsf">
         <description>30100</description>
@@ -326,13 +326,13 @@
     <description lang="sv_SE">GSF är ett tillägg för Kodi som lägger till möjligheten att spela Game Boy Advance-musikfiler, GSF-formatet (MINIGSF- och GSFLIB-filer). Den här spelaren är baserad på Visual Boy Advanced-emulatorn, även om ljudkvaliteten verkar vara identisk med Highly Advanced.</description>
     <description lang="zh_CN">GSF 是 Kodi 的一个插件，它增加了播放 Game Boy Advance 音乐文件的能力，即 GSF 格式（MINIGSF 和 GSFLIB 文件）。该播放器基于 Visual Boy 高级仿真器，但音质似乎与 Hight Advanced 相同。</description>
   </extension>
-</addon><addon id="audiodecoder.hvl" version="22.0.3+ps5.1" name="HivelyTracker Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.hvl" version="22.0.3+ps5.2" name="HivelyTracker Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="hvl" tracks="true" tags="true" library_freebsd="audiodecoder.hvl.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="hvl" tracks="true" tags="true" library_freebsd="audiodecoder.hvl.sprx">
     <support>
       <extension name=".hvl">
         <description>30100</description>
@@ -385,12 +385,12 @@
     <description lang="sv_SE">Hively Tracker är ett trackerprogram baserat på AHX-formatet som skapades i mitten av 90-talet av Dexter och Pink of Abyss. Formatet var relativt populärt och många låtar skapades och användes i scenproduktioner och spel. AHX var utformat för att skapa ett mycket SID-liknande ljud på Amiga.</description>
     <description lang="zh_CN">Hively Tracker 是一个基于 AHX 格式的跟踪器程序，由 Dexter 和 Pink of Abysis 于90年代中期创建。这种格式比较流行，许多歌曲被创作并用于场景制作和游戏中。AHX 的设计目的是在 Amiga 上产生一种非常类似 SID 的声音。</description>
   </extension>
-</addon><addon id="audiodecoder.ncsf" version="22.0.3+ps5.1" name="NCSF Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.ncsf" version="22.0.3+ps5.2" name="NCSF Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="ncsf" tags="true" library_freebsd="audiodecoder.ncsf.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="ncsf" tags="true" library_freebsd="audiodecoder.ncsf.sprx">
     <support>
       <extension name=".minincsf">
         <description>30100</description>
@@ -443,13 +443,12 @@
     <description lang="uk_UA">Додає підтримку декодування файлів Nitro Composer Sound Format (.NCSF/.MININCSF). [CR][CR]Nitro Composer Sound Format (NCSF) - це PSF-стиль для музики Nintendo DS, зокрема музики, що створена за допомогою Nitro Composer, який є частиною Nitro SDK Nintendo для Nintendo DS.</description>
     <description lang="zh_CN">增加了对 Nitro Composer 声音格式文件（.NCSF/.MININCSF）的解码支持。[CR][CR]Nitro Composer 声音格式（NCSF）是任天堂 DS 音乐的 PSF 风格，特别是通过 Nitro Composer 创建的音乐，Nitro Composer 是任天堂 DS Nitro SDK 的一部分，是一种类似于跟踪器的作曲家。</description>
   </extension>
-</addon><addon id="audiodecoder.nosefart" version="22.0.3+ps5.1" name="Nosefart Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.nosefart" version="22.0.3+ps5.2" name="Nosefart Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="nsf" tags="true" tracks="true" library_freebsd="audiodecoder.nosefart.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="nsf" tags="true" tracks="true" library_freebsd="audiodecoder.nosefart.sprx">
     <support>
       <extension name=".nsf">
         <description>30100</description>
@@ -509,12 +508,12 @@
     <description lang="sv_SE">Nintendo Sound Format (NSF) är ett containerformat som innehåller ljudkod som hämtats från ROM-spel för Nintendo Entertainment System. NES hade en ganska bra ljudmotor för sin tid som stödde 2 pulsvågor, 1 triangelvåg, en bruskanal och DPCM-kanal som är en rå 7-bitars räknare rå samplingsuppspelning.</description>
     <description lang="zh_CN">任天堂声音格式（NSF）是一种容器格式，用于保存任天堂娱乐系统游戏 ROM 中的音频代码。NES 当时有一个相当不错的声音引擎，支持2个脉冲波、1个三角波、一个噪声通道和 DPCM 通道，这是一个7比特原始样本播放。</description>
   </extension>
-</addon><addon id="audiodecoder.openmpt" version="22.0.4+ps5.1" name="OpenMPT Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.openmpt" version="22.0.4+ps5.2" name="OpenMPT Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="mod" tags="true" library_freebsd="audiodecoder.openmpt.so.22.0.4">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="mod" tags="true" library_freebsd="audiodecoder.openmpt.sprx">
     <support>
       <extension name=".mptm">
         <description>30100</description>
@@ -696,13 +695,13 @@
     <description lang="sv_SE">OpenMPT (kort för Open ModPlug Tracker) är helt gratis och hans bibliotek låter dig spela upp bra musik på din Kodi.[CR][CR] Den stöder inläsning av IT (Impulse Tracker), XM (FastTracker Extended Module), MOD (ProTracker och liknande), S3M (Scream Tracker 3) och MPTM (sitt eget filformat) filer, importerar många fler modul- och provfilformat.[CR][CR] Se hans webbplats för fullständig lista över stödda typer.</description>
     <description lang="zh_CN">OpenMPT（Open ModPlug Tracker 的缩写）是完全免费的，他的库允许您在 Kodi 上播放一些很棒的音乐。[CR][CR]它支持加载 IT（脉冲跟踪器）、XM（快速跟踪器扩展模块）、MOD（ProTracker 之类）、S3M（尖叫跟踪器3）和MPTM（其自身的文件格式）文件，导入更多的模块和示例文件格式。[CR][CR]有关支持的类型的完整列表，请访问他的网站。</description>
   </extension>
-</addon><addon id="audiodecoder.organya" version="22.0.3+ps5.1" name="Org Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.organya" version="22.0.3+ps5.2" name="Org Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="org" tags="true" library_freebsd="audiodecoder.organya.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="org" tags="true" library_freebsd="audiodecoder.organya.sprx">
     <support>
       <extension name=".org">
         <description>30100</description>
@@ -755,13 +754,13 @@
     <description lang="sv_SE">Organya är ett musikformat som används i ”Cave Story” och som skapades av den japanska programmeraren ”Pixel”. Förutom att det används i originalspelet finns det ett stort och aktivt Cave Story-fangemenskap som skapar musik i det här formatet, både för att spela fristående och för att använda i mods för spelet.[CR][CR]Det här tillägget gör det möjligt att spela .ORG-filer i det här formatet.</description>
     <description lang="zh_CN">Organya 是游戏“洞窟物语”中使用的一种音乐格式，由日本程序员“Pixel”创作。除了在原始游戏中使用外，还有一个大型且活跃的洞窟物语粉丝社区，该社区创建了这种格式的音乐，既可以独立播放，也可以在游戏的 mods 中使用。[CR][CR]此插件允许播放这种格式的 .ORG 文件。</description>
   </extension>
-</addon><addon id="audiodecoder.qsf" version="22.0.3+ps5.1" name="QSF Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.qsf" version="22.0.3+ps5.2" name="QSF Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="qsf" extension=".miniqsf" tags="true" library_freebsd="audiodecoder.qsf.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="qsf" extension=".miniqsf" tags="true" library_freebsd="audiodecoder.qsf.sprx">
     <support>
       <extension name=".qsf">
         <description>30100</description>
@@ -815,12 +814,12 @@
     <description lang="sv_SE">Lägger till stöd för avkodning av Capcom QSound Sound Format-filer (.QSF/.MINIQSF)[CR][CR]QSound är det ursprungliga namnet på en algoritm för positionell tredimensionell (3D) ljudbehandling från QSound Labs som skapar 3D-ljudeffekter från flera monofoniska källor och summerar utdata till två kanaler för presentation i vanliga stereohögtalare.</description>
     <description lang="zh_CN">添加对 Capcom QSound 声音格式文件（.QSF/.MINIQSF）的解码支持。[CR][CR]QSound 是 QSound 实验室提供的定位三维（3D）声音处理算法的原始名称，该算法从多个单声道源创建3D音频效果，并将输出相加到两个通道，以便通过常规立体声扬声器进行呈现。</description>
   </extension>
-</addon><addon id="audiodecoder.sidplay" version="22.0.3+ps5.1" name="Sidplay Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.sidplay" version="22.0.3+ps5.2" name="Sidplay Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="sid" tags="true" tracks="true" library_freebsd="audiodecoder.sidplay.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="sid" tags="true" tracks="true" library_freebsd="audiodecoder.sidplay.sprx">
     <support>
       <extension name=".sid">
         <description>30100</description>
@@ -868,7 +867,7 @@
     <description lang="sv_SE">Sound Interface Device (SID) är ett format som innehåller musik från Commodore 64 och 128.[CR][CR]Detta är ett tillägg som implementerar emulering av C64:s SID-chip (MOS 6581) och CPU (6510) med .SID- eller .SIDSTREAM-filer.</description>
     <description lang="zh_CN">声音接口设备（SID）是一种容纳 Commodore 64 和 128 音乐的格式。[CR][CR]这是一个通过 .SID 或 .SIDSTREAM 文件实现 C64 的 SID 芯片（MOS 6581）和 CPU（6510）仿真的插件。</description>
   </extension>
-</addon><addon id="audiodecoder.snesapu" version="22.0.3+ps5.1" name="SPC Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.snesapu" version="22.0.3+ps5.2" name="SPC Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -876,8 +875,8 @@
 <import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
 <import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" />
     <import addon="vfs.rar" minversion="22.0.0" />
-  <import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="spc" tags="true" tracks="true" library_freebsd="audiodecoder.snesapu.so.22.0.3">
+  <import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="spc" tags="true" tracks="true" library_freebsd="audiodecoder.snesapu.sprx">
     <support>
       <extension name=".spc">
         <description>30200</description>
@@ -926,12 +925,12 @@
     <description lang="sv_SE">SPC-formatet innehåller spelmusik från Super Nintendo (SNES). Det är uppkallat efter Sonys SPC700-bidrag till SNES:s S-SMP-ljudchip. SNES var ett stort steg framåt i ljudtekniken jämfört med NES, med möjlighet till stereoljud, fler kanaler och helt samplade instrument.</description>
     <description lang="zh_CN">SPC 格式保存超级任天堂（SNES）游戏音乐。它是以索尼 SPC700 对 SNES s-SMP 音频芯片的贡献命名的。SNES 是从 NES 到立体声、更多声道和全采样乐器的音频技术的重大飞跃。</description>
   </extension>
-</addon><addon id="audiodecoder.ssf" version="22.0.3+ps5.1" name="SSF/DSF Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.ssf" version="22.0.3+ps5.2" name="SSF/DSF Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="ssf" tags="true" library_freebsd="audiodecoder.ssf.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="ssf" tags="true" library_freebsd="audiodecoder.ssf.sprx">
     <support>
       <extension name=".ssf">
         <description>30100</description>
@@ -986,12 +985,12 @@
     <description lang="sv_SE">Sega Saturn Sound Format (SSF) och Dreamcast Sound Format (DSF) är ett ljudformat baserat på PSF. Det lagrar ljud som extraherats från ROM:arna i Sega Saturn- och Sega Dreamcast-spel.</description>
     <description lang="zh_CN">世嘉土星声音格式（SSF）和梦工厂声音格式（DSF）是基于 PSF 的音频格式。它存储从世嘉土星和世嘉梦工厂主机游戏 ROM 中提取的音频。</description>
   </extension>
-</addon><addon id="audiodecoder.stsound" version="22.0.3+ps5.1" name="YM Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.stsound" version="22.0.3+ps5.2" name="YM Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="ym" tags="true" library_freebsd="audiodecoder.stsound.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="ym" tags="true" library_freebsd="audiodecoder.stsound.sprx">
     <support>
       <extension name=".ym">
         <description>30100</description>
@@ -1040,14 +1039,14 @@
     <description lang="sv_SE">YM (YM2149-musik) är ett ljudformat som loggar instruktioner som skickas till ett AY-3-8910- eller YM2149-chip. Uppspelning sker genom att emulera chipen och skicka de loggade data till dem. Eftersom formatet bara loggar instruktionerna till chipet bevarar det inte musikformatets ursprungliga innehåll.</description>
     <description lang="zh_CN">YM（YM2149 音乐）是一种音频格式，记录发送到 AY-3-8910 或 YM2149 芯片的指令。回放是通过模拟芯片并将记录的数据发送给它们来实现的。由于该格式仅将指令记录到芯片中，因此不包含音乐格式的原始内容。</description>
   </extension>
-</addon><addon id="audiodecoder.usf" version="22.0.3+ps5.1" name="USF Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.usf" version="22.0.3+ps5.2" name="USF Audio Decoder" provider-name="spiff">
   <requires>
     
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
 <import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" />
-  <import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="usf" tags="true" library_freebsd="audiodecoder.usf.so.22.0.3">
+  <import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="usf" tags="true" library_freebsd="audiodecoder.usf.sprx">
     <support>
       <extension name=".miniusf">
         <description>30100</description>
@@ -1095,14 +1094,13 @@
     <description lang="sv_SE">Detta är en avkodare som ger stöd för uppspelning av (Ultra) Nintendo 64 Sound format (.USF/.MINIUSF)-filer.</description>
     <description lang="zh_CN">此解码器增加了对播放（Ultra）任天堂 64 声音格式（.USF/.MINIUSF）文件的支持。</description>
   </extension>
-</addon><addon id="audiodecoder.wsr" version="22.0.3+ps5.1" name="WSR Audio Decoder" provider-name="spiff">
+</addon><addon id="audiodecoder.wsr" version="22.0.3+ps5.2" name="WSR Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
-<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="wsr" tags="true" tracks="true" library_freebsd="audiodecoder.wsr.so.22.0.3">
+<import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="wsr" tags="true" tracks="true" library_freebsd="audiodecoder.wsr.sprx">
     <support>
       <extension name=".wsr">
         <description>30100</description>
@@ -1150,15 +1148,15 @@
     <description lang="sv_SE">WonderSwan R (WSR) är ett containerformat som innehåller ljudkod från ROM:arna i spel för WonderSwan och WonderSwan Color handhållna spelsystem. Både original- och färgversionerna använde samma ljudchip som kunde hantera 4 PCM-ljudkanaler.</description>
     <description lang="zh_CN">WonderSwan R（WSR）是一种容器格式，用于保存 WonderSwan 和 WonderSwan 彩色版掌机游戏 ROM 中的音频代码。初始版和彩色版都使用相同的音频芯片，可以处理4个PCM音频声道。</description>
   </extension>
-</addon><addon id="inputstream.adaptive" version="22.3.23+ps5.1" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+</addon><addon id="inputstream.adaptive" version="22.3.23+ps5.2" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
 <import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
 <import addon="kodi.binary.instance.inputstream" minversion="3.4.0" version="3.4.1" />
-<import addon="kodi.binary.instance.videocodec" minversion="2.1.0" version="2.2.1" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm|drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|server_certificate|common_headers|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|config|manifest_config" library_freebsd="inputstream.adaptive.so.22.3.23" />
+<import addon="kodi.binary.instance.videocodec" minversion="2.1.0" version="2.2.1" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm|drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|server_certificate|common_headers|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|config|manifest_config" library_freebsd="inputstream.adaptive.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
 	<license>GPL-2.0-or-later</license>
@@ -1214,15 +1212,15 @@
     <description lang="sv_SE">InputStream-klient för adaptiva strömmar. Stöd finns för vanliga streamingprotokoll som MPEG-DASH, HLS och Microsoft Smooth Streaming.[CR][CR]Tillägget har även stöd för DRM-skyddade strömmar, som Google Widevine, Microsoft PlayReady m.fl.[CR][CR]För dokumentation besök: https://github.com/xbmc/inputstream.adaptive</description>
     <description lang="zh_CN">用于自适应流的 InputStream 客户端。支持 MPEG-DASH、HLS 和 Microsoft Smooth Streaming 等常见流协议。[CR][CR]该插件还支持 Google Widevine、Microsoft PlayReady 等 DRM 保护流。[CR][CR]如需文档，请访问：https://github.com/xbmc/inputstream.adaptive</description>
   </extension>
-</addon><addon id="pvr.hts" version="22.9.4+ps5.1" name="Tvheadend HTSP Client" provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
+</addon><addon id="pvr.hts" version="22.9.4+ps5.2" name="Tvheadend HTSP Client" provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4" />
 <import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
 <import addon="kodi.binary.instance.inputstream" minversion="3.4.0" version="3.4.1" />
-<import addon="kodi.binary.instance.pvr" minversion="9.2.0" version="9.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.pvrclient" library_freebsd="pvr.hts.so.22.9.4" />
+<import addon="kodi.binary.instance.pvr" minversion="9.2.0" version="9.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.pvrclient" library_freebsd="pvr.hts.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1342,13 +1340,13 @@
     <description lang="zh_CN">Tvheadend 前端，支持直播电视和录像流媒体、电子节目单、定时器</description>
     <description lang="zh_TW">Tvheadend前端，支援的串流媒體包含有直播電視和錄製節目，電子節目表，定時器 等</description>
   </extension>
-</addon><addon id="screensaver.asteroids" version="22.0.6+ps5.1" name="Asteroids" provider-name="Team Kodi">
+</addon><addon id="screensaver.asteroids" version="22.0.6+ps5.2" name="Asteroids" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.asteroids.so.22.0.6" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.asteroids.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1404,13 +1402,13 @@
     <description lang="uk_UA">Заставка, яка виконана в старому стилі, з руйнуванням астероїдів.</description>
     <description lang="zh_CN">一个老式的屏幕保护程序，小行星被射出。</description>
   </extension>
-</addon><addon id="screensaver.asterwave" version="22.0.5+ps5.1" name="AsterWave" provider-name="Team Kodi">
+</addon><addon id="screensaver.asterwave" version="22.0.5+ps5.2" name="AsterWave" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.asterwave.so.22.0.5" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.asterwave.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1450,13 +1448,13 @@
     <description lang="sv_SE">Ett vätskefält som deformeras realistiskt efter höjdförändringar med hjälp av verkliga fysikekvationer.[CR][CR]Asteron: Den här koden är anpassad från ett projekt som jag gjorde för en grafikkurs år 2000. I betatestningen har den fått mycket beröm och jag hoppas att den ska ersätta cpBlobs som den mest populära skärmsläckaren.</description>
     <description lang="zh_CN">这是一个液体场，使用实际的物理方程，它会随着高度的变化而发生真实的变形。[CR][CR]Asteron：这段代码改编自我2000年为一门图形课程做的一个项目。在beta测试中，这已经获得了很多赞扬，我希望它能取代cpblob成为最流行的屏幕保护程序。</description>
   </extension>
-</addon><addon id="screensaver.biogenesis" version="22.0.6+ps5.1" name="BioGenesis" provider-name="Team Kodi">
+</addon><addon id="screensaver.biogenesis" version="22.0.6+ps5.2" name="BioGenesis" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.biogenesis.so.22.0.6" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.biogenesis.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1494,13 +1492,13 @@
     <description lang="sv_SE">En implementering av John Conways berömda ”Game of Life” med 3 anpassade färgläggningsregler. Några grundläggande regler styr vilka celler som kommer att leva i nästa generation beroende på cellens nuvarande tillstånd och antalet levande grannar.[CR][CR]Skärmdumpar gör inte detta mycket rättvisa eftersom systemets rörelse som gränsar mellan stabilitet och kaos är det som ser intressant ut.[CR][CR]Funktioner:[CR] - 3 anpassade färgregler implementeras var och en ger intressanta resultat. [CR] - Kolonifärgning färgar celler beroende på färgen på dess ”föräldraceller”.[CR] - Livstidsfärgning färgar en cell beroende på hur länge den har levt.[CR] - Grannfärgning färgar en cell beroende på konfigurationen av dess grannar.[CR] - Många parametrar kan konfigureras i inställningarna.</description>
     <description lang="zh_CN">约翰·康威著名的“生活游戏”的一个实现，带有3个自定义着色规则。根据细胞的当前状态和其活的邻居的数量，一些基本规则决定了下一代细胞将存活。[CR][CR]截图没有做到这一点，因为系统在稳定和混乱之间的运动看起来很有趣。[CR][CR]特性:[CR] -实现了3个自定义着色规则，每个规则都产生了有趣的结果。[CR] -菌落根据其“亲代”细胞的颜色给细胞着色。[CR] -根据细胞存活的时间给细胞着色。[CR] -邻居根据其邻居的配置为单元格着色。[CR] -许多参数可在设置中配置。</description>
   </extension>
-</addon><addon id="screensaver.greynetic" version="22.0.6+ps5.1" name="Greynetic" provider-name="spiff">
+</addon><addon id="screensaver.greynetic" version="22.0.6+ps5.2" name="Greynetic" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.greynetic.so.22.0.6" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.greynetic.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1536,13 +1534,13 @@
     <description lang="sv_SE">Färgade och transparenta rektanglar.</description>
     <description lang="zh_CN">多彩透明矩形。</description>
   </extension>
-</addon><addon id="screensaver.matrixtrails" version="22.0.5+ps5.1" name="Matrix trails" provider-name="spiff">
+</addon><addon id="screensaver.matrixtrails" version="22.0.5+ps5.2" name="Matrix trails" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.matrixtrails.so.22.0.5" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.matrixtrails.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1581,13 +1579,13 @@
     <description lang="sv_SE">Effekten ”digitalt regn”, som man ser på datorskärmarna i ”The Matrix”[CR][CR]I inställningarna kan du också definiera dina egna färger och storlekar på regnet.</description>
     <description lang="zh_CN">“数字雨”效果，如影片《黑客帝国》中的计算机显示器所示。[CR][CR]在其设置中，您还可以定义自己的雨的颜色和大小。</description>
   </extension>
-</addon><addon id="screensaver.microcosm.biof" version="22.0.7+ps5.1" name="Microcosm" provider-name="Team Kodi">
+</addon><addon id="screensaver.microcosm.biof" version="22.0.7+ps5.2" name="Microcosm" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.microcosm.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.microcosm.biof.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1620,13 +1618,13 @@
     <disclaimer lang="fi_FI">Toteutettu "reallyslickscreensavers" -näytönsäästäjän pohjalta</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“reallyslickscreensavers”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.pyro" version="22.0.6+ps5.1" name="Pyro" provider-name="Team Kodi">
+</addon><addon id="screensaver.pyro" version="22.0.6+ps5.2" name="Pyro" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.pyro.so.22.0.6" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.pyro.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1677,14 +1675,14 @@
     <description lang="uk_UA">Заставка Pyro імітує феєрверки.</description>
     <description lang="zh_CN">Pyro 屏幕保护程序模拟焰火。</description>
   </extension>
-</addon><addon id="screensaver.rsxs.drempels" version="22.0.7+ps5.1" name="Drempels" provider-name="Team Kodi">
+</addon><addon id="screensaver.rsxs.drempels" version="22.0.7+ps5.2" name="Drempels" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.drempels.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.drempels.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1729,13 +1727,13 @@
     <disclaimer lang="uk_UA">Ця реалізація заснована на заставці "rss-glx"</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“rss-glx”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.rsxs.feedback" version="22.0.7+ps5.1" name="Feedback" provider-name="Team Kodi">
+</addon><addon id="screensaver.rsxs.feedback" version="22.0.7+ps5.2" name="Feedback" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.feedback.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.feedback.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1775,13 +1773,13 @@
     <disclaimer lang="uk_UA">Ця реалізація заснована на заставці "rss-glx"</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“rss-glx”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.rsxs.fieldlines" version="22.0.7+ps5.1" name="Fieldlines" provider-name="Team Kodi">
+</addon><addon id="screensaver.rsxs.fieldlines" version="22.0.7+ps5.2" name="Fieldlines" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.fieldlines.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.fieldlines.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1827,13 +1825,13 @@
     <disclaimer lang="uk_UA">Ця реалізація заснована на заставці "rss-glx"</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“rss-glx”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.rsxs.flux" version="22.0.7+ps5.1" name="Flux" provider-name="Team Kodi">
+</addon><addon id="screensaver.rsxs.flux" version="22.0.7+ps5.2" name="Flux" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.flux.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.flux.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1875,13 +1873,13 @@
     <disclaimer lang="uk_UA">Ця реалізація заснована на заставці "rss-glx"</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“rss-glx”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.rsxs.helios" version="22.0.7+ps5.1" name="Helios" provider-name="Team Kodi">
+</addon><addon id="screensaver.rsxs.helios" version="22.0.7+ps5.2" name="Helios" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.helios.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.helios.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1928,13 +1926,13 @@
     <disclaimer lang="uk_UA">Ця реалізація заснована на заставці "rss-glx"</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“rss-glx”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.rsxs.lorenz" version="22.0.7+ps5.1" name="Lorenz Attractor" provider-name="Team Kodi">
+</addon><addon id="screensaver.rsxs.lorenz" version="22.0.7+ps5.2" name="Lorenz Attractor" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.lorenz.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.lorenz.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -1982,13 +1980,13 @@
     <disclaimer lang="uk_UA">Ця реалізація заснована на заставці "rss-glx"</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“rss-glx”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.rsxs.plasma" version="22.0.7+ps5.1" name="Plasma" provider-name="Team Kodi">
+</addon><addon id="screensaver.rsxs.plasma" version="22.0.7+ps5.2" name="Plasma" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.plasma.so.22.0.7" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.rsxs.plasma.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -2116,14 +2114,14 @@
     <disclaimer lang="uk_UA">Ця реалізація заснована на заставці "rss-glx"</disclaimer>
     <disclaimer lang="zh_CN">这是一个基于“rss-glx”屏幕保护程序的实现</disclaimer>
   </extension>
-</addon><addon id="screensaver.shadertoy" version="22.0.5+ps5.1" name="Shadertoy Screensavers" provider-name="afedchin">
+</addon><addon id="screensaver.shadertoy" version="22.0.5+ps5.2" name="Shadertoy Screensavers" provider-name="afedchin">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.shadertoy.so.22.0.5" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.shadertoy.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -2168,13 +2166,13 @@
     <description lang="sv_SE">Använd de bästa shaders i världen med Shadertoy och lägg till dem om du vill.</description>
     <description lang="zh_CN">与 Shadertoy 一起使用世界上最好的着色器，如果需要，可以添加它们。</description>
   </extension>
-</addon><addon id="screensaver.stars" version="22.0.5+ps5.1" name="Stars" provider-name="Team Kodi">
+</addon><addon id="screensaver.stars" version="22.0.5+ps5.2" name="Stars" provider-name="Team Kodi">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
 <import addon="kodi.binary.global.filesystem" minversion="1.1.11" version="1.1.11" />
-<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.stars.so.22.0.5" />
+<import addon="kodi.binary.instance.screensaver" minversion="2.2.0" version="2.2.0" /><import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="xbmc.ui.screensaver" library_freebsd="screensaver.stars.sprx" />
   <extension point="xbmc.addon.metadata">
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
@@ -2217,10 +2215,10 @@
     <description lang="sv_SE">En skärmsläckare som låter dig flyga genom stjärnorna.</description>
     <description lang="zh_CN">让你在星空中飞翔的屏幕保护程序。</description>
   </extension>
-</addon><addon id="repository.ps5.testing" name="Kodi PS5 Testing Add-ons" version="1.0.0" provider-name="Kodi PS5">
+</addon><addon id="repository.ps5.testing" name="Kodi PS5 Testing Add-ons" version="2.0.0" provider-name="Kodi PS5">
   <requires>
     <import addon="xbmc.addon" version="12.0.0" />
-    <import addon="resource.ps5.addon-runtime" version="1.0.0" />
+    <import addon="resource.ps5.addon-runtime" version="2.0.0" />
   </requires>
   <extension point="xbmc.addon.repository" name="Kodi PS5 Testing Add-ons">
     <dir>
@@ -2232,7 +2230,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Opt-in testing binary add-ons for Kodi PS5</summary>
-    <description lang="en">Experimental PS5 add-ons for the piers-ps5-1 title runtime. Install this repository manually to opt in.</description>
+    <description lang="en">Opt-in native SPRX candidates requiring the upgraded shared-runtime Kodi PS5 title. Build qualification is not console acceptance.</description>
     <platform>ps5</platform>
     <license>GPL-2.0-or-later</license>
   </extension>

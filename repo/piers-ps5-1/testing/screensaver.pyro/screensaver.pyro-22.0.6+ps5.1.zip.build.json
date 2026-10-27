@@ -1,8 +1,0 @@
-{
-  "fingerprint": "70e7853e1c3994e4204011af18c3354d697d8aaccd712d6a992dd0e3e9a59a8a",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "f66119d1ccb830ffcdcaa2e5ea5e768d8b57798a",
-  "target": "screensaver.pyro",
-  "url": "https://github.com/xbmc/screensaver.pyro"
-}

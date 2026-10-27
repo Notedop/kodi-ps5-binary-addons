@@ -1,8 +1,0 @@
-{
-  "fingerprint": "d4628e3ff386401ca27babe6b043d64b24f5e047b5f17968f7f7977c06664a0a",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "d4705fab65d516e81dcfe8987f1197bfa882a5e0",
-  "target": "audiodecoder.asap",
-  "url": "https://github.com/xbmc/audiodecoder.asap"
-}

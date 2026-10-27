@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="audiodecoder.snesapu" version="22.0.3+ps5.1" name="SPC Audio Decoder" provider-name="spiff">
+<addon id="audiodecoder.snesapu" version="22.0.3+ps5.2" name="SPC Audio Decoder" provider-name="spiff">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -7,8 +7,8 @@
 <import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4" />
 <import addon="kodi.binary.instance.audiodecoder" minversion="4.0.0" version="4.0.0" />
     <import addon="vfs.rar" minversion="22.0.0" />
-  <import addon="resource.ps5.addon-runtime" version="1.0.0" /></requires>
-  <extension point="kodi.audiodecoder" name="spc" tags="true" tracks="true" library_freebsd="audiodecoder.snesapu.so.22.0.3">
+  <import addon="resource.ps5.addon-runtime" version="2.0.0" /></requires>
+  <extension point="kodi.audiodecoder" name="spc" tags="true" tracks="true" library_freebsd="audiodecoder.snesapu.sprx">
     <support>
       <extension name=".spc">
         <description>30200</description>

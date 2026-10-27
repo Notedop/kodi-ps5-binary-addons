@@ -1,8 +1,0 @@
-{
-  "fingerprint": "7b5c7e9919e0848bdddb3581b4113d46fc8e175cdc0efdce79146ce0e70d5165",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "a120539675830a8c408d7e611918cb7e9d39e60c",
-  "target": "screensaver.asteroids",
-  "url": "https://github.com/xbmc/screensaver.asteroids"
-}

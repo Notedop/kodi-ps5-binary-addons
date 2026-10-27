@@ -1,8 +1,0 @@
-{
-  "fingerprint": "86508d32ed6a5183027cbecde3954a3f2f724fc45947e3c126dd774e286cf7e2",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "6d4ae4932868c3ea9491f473cc7f253951ae2989",
-  "target": "audiodecoder.hvl",
-  "url": "https://github.com/xbmc/audiodecoder.hvl"
-}

@@ -1,8 +1,0 @@
-{
-  "fingerprint": "9acd7eb30b43a753d46a06716918f645fc537c0093a4b010d5c85fde43d9612d",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "7140624962ab031e42f58be6473c73c88dc0e48a",
-  "target": "audiodecoder.openmpt",
-  "url": "https://github.com/xbmc/audiodecoder.openmpt"
-}

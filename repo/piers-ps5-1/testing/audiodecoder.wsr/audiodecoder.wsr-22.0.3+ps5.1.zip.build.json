@@ -1,8 +1,0 @@
-{
-  "fingerprint": "895182f01aa86b2135cbec90e0d9d045c6e6e8af645e9412b9414e4a87cb5d16",
-  "revision": 1,
-  "runtime": "piers-ps5-1",
-  "source_revision": "c3cf811973ea34768733949a007a8e3c37cbafa1",
-  "target": "audiodecoder.wsr",
-  "url": "https://github.com/xbmc/audiodecoder.wsr"
-}
