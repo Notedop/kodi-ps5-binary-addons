@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="pvr.hts" version="22.9.4+ps5.2" name="Tvheadend HTSP Client" provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
+<addon id="pvr.hts" version="22.9.4+ps5.3" name="Tvheadend HTSP Client" provider-name="Adam Sutton, Sam Stenvall, Lars Op den Kamp, Kai Sommerfeld">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.4" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />

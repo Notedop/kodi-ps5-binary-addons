@@ -1,5 +1,5 @@
 {
-  "fingerprint": "ac0f2987ec22cdf8fc29ee6c210975d6891ea7c18acec27b76d897db83e1a030",
+  "fingerprint": "f27a77a76701657fb1997f911592877da4ba3c0443d20a4ca4fb3e2c66291f19",
   "native": {
     "compiler_abi": "ps5-sdk-native-frontend-v1",
     "format": "ps5-native-addon",
@@ -2198,13 +2198,13 @@
         "libSceLibcInternal.sprx"
       ]
     },
-    "native_elf_sha256": "da1a4ea0a1e7f7bae0dada07084fae03974bedb48ce0b5a4ce739222ebe821c5",
+    "native_elf_sha256": "ceb5deb6af5fcf11318f211826f722d719858fc678b13a307b8838880b313f8c",
     "needed": [
       "libkodi-runtime.sprx",
       "libkernel.sprx",
       "libSceLibcInternal.sprx"
     ],
-    "output_sha256": "e3ae9698db4158cf0cfef3c6c494bd5bdfabcf7a7898f6eadbecad814338822c",
+    "output_sha256": "d84ee893ef951dd1e8ea4e38bc8f11c8edf069387fb82d5bacb170a5515146a4",
     "provider_requirements": [
       {
         "library": "libkodi-runtime",
@@ -2244,9 +2244,9 @@
     ],
     "schema": 1,
     "sign_extract_equal": true,
-    "source_sha256": "11ec80d15566e6ecbce4d7c8091c1f5feb981fb3e8f6b21385dc59a313ff3fb5"
+    "source_sha256": "7eb44d04d747bb5521e35c18bd392aed02bded59ad8fd92475a974788818ab48"
   },
-  "revision": 2,
+  "revision": 3,
   "runtime": "piers-ps5-1",
   "source_revision": "5e97cdfd696b87b1ceb33820719cc37ebe307475",
   "target": "pvr.hts",
